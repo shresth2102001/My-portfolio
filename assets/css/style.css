@@ -26,9 +26,7 @@ a:hover {
 h1, h2, h3, h4, h5, h6 {
   font-family: "Raleway", sans-serif;
 }
-hr{
-  background-color: cadetblue;
-}
+
 
 /*--------------------------------------------------------------
 # Back to top button
@@ -429,7 +427,12 @@ section {
 /*--------------------------------------------------------------
 # Skills
 --------------------------------------------------------------*/
-
+#skills {
+  width: 100%;
+  background: #f7f8f9;
+  background-size: cover;
+  position: relative;
+}
 .skills  ul {
   list-style: none;
   padding: 0;
@@ -516,6 +519,12 @@ section {
 /*--------------------------------------------------------------
 # Portfolio
 --------------------------------------------------------------*/
+#portfolio {
+  width: 100%;
+  background: #f7f8f9;
+  background-size: cover;
+  position: relative;
+}
 .portfolio .portfolio-item {
   margin-bottom: 30px;
 }

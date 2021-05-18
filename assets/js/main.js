@@ -224,7 +224,10 @@
 /**
  * EmailJS 
  */
-    
+ function reset() { 
+  /*Put all the data posting code here*/ 
+ document.getElementById("form").reset(); 
+}   
  const btn = document.getElementById('button');
 
  document.getElementById('form')
@@ -240,6 +243,7 @@
      .then(() => {
        btn.value = 'Send Message';
        alert('Sent!');
+       reset()        
      }, (err) => {
        btn.value = 'Send Message';
        alert(JSON.stringify(err)); 
